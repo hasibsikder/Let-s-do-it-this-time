@@ -11,7 +11,7 @@ import {
   type InsertContact,
   type Newsletter, 
   type InsertNewsletter 
-} from "@shared/schema";
+} from "./shared/schema";
 import { db } from "./db";
 import { eq } from "drizzle-orm";
 
